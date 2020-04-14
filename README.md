@@ -12,7 +12,23 @@ The structure is as follows:
 >   Server:
 >   User:
 > Password
-* *schema.py*: Defines the 'Parent' and 'Child' table definitions and a generic make function that calls a computation method and calls populate method.
+* *schema.py*: Defines the 'Parent' and 'Child' table definitions and a generic make function that calls a computation method and calls populate method. 
+```python
+@schema
+class Parent(dj.Manual):
+    definition = """
+    filename: varchar(200)   #filename without extension.
+    ---
+    """ 
+
+@schema
+class Children(dj.Imported):
+    definition = """
+    -> Parent
+    ----------------
+    processed: varchar(200)
+    """
+```
 
 * *computation.py*: Actual computation method that needs to be specified by the user.
 
