@@ -20,9 +20,8 @@ schema = dj.schema(credential['schema'])
 @schema
 class Parent(dj.Manual):
     definition = """
-    id: int
+    filename: varchar(200)   #filename without extension.
     ---
-    unprocessed: varchar(200)
     """ 
 
 @schema
