@@ -32,12 +32,14 @@ file would not be pushed to GitHub.
 
 Run `./aws-jupyter.py -h` will print the help message of the script. You are welcome to modify the details in `aws-jupyter.py`.
 
-1. Run configuration - run `./aws-jupyter.py config` to set up the script. Include region, instance type, AMI and credential file path.
+1. Run configuration - run `./aws-jupyter.py config` to set up the script. Include region, instance type,
+AMI and credential file path.
 2. Create a cluster - run `./aws-jupyter.py create -c <N> --name <NAME>` to create a cluster
 named <NAME> with <N> nodes. Later the cluster name is required to check the cluster status and
 to terminate the cluster.
 If on-demand instances are needed, please append `--ondemand` option.
 3. Check a cluster - run `./aws-jupyter.py check --name <NAME>` to check the status of a cluster.
-If the cluster is ready, you will run the script `./script-examples/install-project.sh` on all instances of this cluster.
+If the cluster is ready, the script `./script-examples/install-project.sh` will be run on all
+instances of this cluster. You need to customize your codes in this script.
 4. Terminate a cluster - run `./aws-jupyter.py terminate --name <NAME>` to terminate a cluster.
 
