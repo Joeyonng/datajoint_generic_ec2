@@ -8,7 +8,7 @@ export GIT_NAME="datajoint_generic_ec2"
 # Download your GitHub project.
 cd $BASE_PATH
 sleep $(shuf -i 1-10 -n 1)
-rm -rf $GIT_NAME # If your GitHub project has existed in the AMI and is up-tp-date, comment this line.
+rm -rf $GIT_NAME # If your GitHub project does not exist in the AMI or is up-tp-date, comment this line.
 git clone $GIT_REPO
 
 # Activate or set up the virtual environment. Ensure essential tools are ready in the AMI (virtualenv or Anaconda).
