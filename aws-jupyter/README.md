@@ -1,4 +1,4 @@
-This script launches a cluster on AWS EC2 instances and starts a Jupyter notebook on them.
+This script launches a cluster on AWS EC2 instances and run scripts on them.
 
 ## Install
 
