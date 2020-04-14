@@ -2,7 +2,7 @@
 
 ## About
 
-This is a generic script that is meant to be used to run computation on EC2 instaces via leveraging the populate method available as part of DJ. 
+This is a generic script that is meant to be used to run computation on EC2 instances via leveraging the populate method available as part of DJ. 
 
 ## Structure
 
@@ -24,3 +24,7 @@ The structure is as follows:
 ## How to run
 
 To run the script (assuming that all dependencies e.g. datajoint, etc. are installed) run the command `python schema.py` 
+
+## How to run on multiple instances 
+
+To create multiple EC2 instances and run the script on them parallelly in an easy way, go to ./aws-jupyter for more information.
