@@ -47,4 +47,4 @@ To run the script (assuming that all dependencies e.g. datajoint, etc. are insta
 
 ## How to run on multiple instances 
 
-To create multiple EC2 instances and run the script on them parallelly in an easy way, go to `./aws-jupyter` for more information.
+To create multiple EC2 instances and run the script on them parallelly in an easy way, go to [Aws-jupyter.md](Aws-jupyter.md) for more information.
