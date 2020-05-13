@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af454e1b-57eb-4baa-9be4-d6d8c6a5be41" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aws-jupyter/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aws-jupyter/README2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aws-jupyter/Run-Jupyter.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aws-jupyter/aws-jupyter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aws-jupyter/lib/check_cluster.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aws-jupyter/lib/common.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aws-jupyter/lib/create_cluster.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aws-jupyter/lib/diagnose.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aws-jupyter/lib/retrieve_files.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aws-jupyter/lib/run_cluster.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aws-jupyter/lib/send_configs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aws-jupyter/lib/setup_cluster.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aws-jupyter/lib/ssh_headnode.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aws-jupyter/lib/terminate_cluster.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aws-jupyter/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aws-jupyter/script-examples/hello-world.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aws-jupyter/script-examples/init-worker.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aws-jupyter/script-examples/install-jupyter.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aws-jupyter/script-examples/install-project.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aws-jupyter.md" beforeDir="false" afterPath="$PROJECT_DIR$/Aws-jupyter.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/schema.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="311">
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -46,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="593">
+              <first_editor relative-caret-position="735">
                 <caret line="49" column="124" selection-start-line="49" selection-start-column="124" selection-end-line="49" selection-end-column="124" />
               </first_editor>
               <second_editor />
@@ -58,10 +41,19 @@
         <entry file="file://$PROJECT_DIR$/Aws-jupyter.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="458">
-                <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+              <first_editor relative-caret-position="720">
+                <caret line="48" column="77" selection-start-line="48" selection-start-column="77" selection-end-line="48" selection-end-column="77" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Aws-jupyter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -115,8 +107,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -144,18 +143,21 @@
       <updated>1588667249357</updated>
       <workItem from="1588667251033" duration="661000" />
       <workItem from="1588669831039" duration="609000" />
-      <workItem from="1588791037987" duration="288000" />
+      <workItem from="1588791037987" duration="423000" />
+      <workItem from="1588796663209" duration="837000" />
+      <workItem from="1589273959457" duration="1054000" />
+      <workItem from="1589395623942" duration="250000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1558000" />
+    <option name="totallyTimeSpent" value="3834000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="828" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -182,9 +184,20 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/install-project.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/computation.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/schema.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="311">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -194,18 +207,25 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="593">
+          <first_editor relative-caret-position="735">
             <caret line="49" column="124" selection-start-line="49" selection-start-column="124" selection-end-line="49" selection-end-column="124" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Aws-jupyter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Aws-jupyter.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="458">
-            <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+          <first_editor relative-caret-position="720">
+            <caret line="48" column="77" selection-start-line="48" selection-start-column="77" selection-end-line="48" selection-end-column="77" />
           </first_editor>
           <second_editor />
         </state>
